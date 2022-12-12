@@ -1,0 +1,13 @@
+html { height: 100%; }
+* { box-sizing: border-box; }
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 40px;
+  background-color: #EEABCE;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #00582B;
+}
