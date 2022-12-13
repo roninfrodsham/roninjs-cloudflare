@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import { gsap } from "gsap"
+gsap.registerPlugin()
 
 function RoninMask() {
 
