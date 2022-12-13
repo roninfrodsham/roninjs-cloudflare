@@ -10,4 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #00582B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -15,7 +15,7 @@ export let links: LinksFunction = () => {
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "Experiments in code by Jonny Frodsham - React, Remix and JS Developer",
   viewport: "width=device-width,initial-scale=1",
 });
 
