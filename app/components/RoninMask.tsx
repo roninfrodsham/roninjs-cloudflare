@@ -1,16 +1,16 @@
-import { useRef, useEffect, useState } from "react"
-import { gsap } from "gsap"
+//import { useEffect } from "react"
+//import { gsap } from "gsap"
 
 function RoninMask() {
 
-  useEffect(() => {
-    let ctx = gsap.context(() => {
-      gsap.fromTo(".hat", {opacity: 0}, {opacity: 1, duration: 1, ease: "ease.out"})
-      gsap.fromTo(".mask", {y: -90, opacity: 0}, {y: 0, opacity: 1, duration: 0.6, ease: "circ.out", delay: 0.9})
-    });
+  // useEffect(() => {
+  //   let ctx = gsap.context(() => {
+  //     gsap.fromTo(".hat", {opacity: 0}, {opacity: 1, duration: 1, ease: "ease.out"})
+  //     gsap.fromTo(".mask", {y: -90, opacity: 0}, {y: 0, opacity: 1, duration: 0.6, ease: "circ.out", delay: 0.9})
+  //   });
     
-    return () => ctx.revert()
-  }, [])
+  //   return () => ctx.revert()
+  // }, [])
 
   function HatBack() {
     return (
